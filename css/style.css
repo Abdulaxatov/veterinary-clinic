@@ -110,6 +110,7 @@ body {
 }
 
 .site_header .header_top .logo:before {
+  
   content: "";
   width: 14px;
   height: 14px;
