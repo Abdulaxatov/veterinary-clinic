@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/normalize.css">  
   <link rel="stylesheet" href="css/style.css">
   <title>3-imtihon</title>
 </head>
@@ -14,7 +14,7 @@
       <div class="header_top container">
           <a class="location logo" href="#" target="_blank">г. Мариуполь, проспект Победы, 48а</a>
           <ul class="site-header__list">
-              <li><a class="header_top_tel logo" href="tel:+0676347574">(067) 634 -75 - 74</a></li>
+              <li><a class="header_top_tel phone" href="tel:+0676347574">(067) 634 -75 - 74</a></li>
               <li><a class="header_top_tel circle" href="tel:+0637570131">(0637) 57 - 01 - 31</a></li>
               <li><a class="header_top_tel circle" href="tel:+0982664389">(098) 266 - 43 - 89</a></li>
           </ul>
@@ -47,30 +47,131 @@
   <main class="site-main">
     <section class="site-hero">
       <div class="container">
-        <div class="site-hero__content">
-          <h1 class="site-hero__title">Мы заботимся о <span class="site-hero__span">ваших питомцах!</span></h1>
-          <p class="site-hero__text">Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
-          <a class="site-hero__link" href="#">Наши услуги</a>
+        <div class="site-hero__contents">
+          <h1 class="site-hero__title">Мы заботимся о <span class="title">ваших питомцах!</span></h1>
+          <p class="site-hero__text">
+            Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.
+          </p>
+          <a href="#" class="site-hero__link">Наши услуги</a>
         </div>
       </div>
     </section>
     <section class="site-intro">
       <div class="container">
-        <p class="site-intro__text">Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.</p>
-        <p class="site-intro__smalltext">Оржоникидзевская Ветеринарная клиника</p>
+        <div class="site-intro__content">
+          <blockquote class="site-intro__text">
+            Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.
+          </blockquote>
+          <span class="site-intro__span">
+            Оржоникидзевская Ветеринарная клиника
+          </span>
+        </div>
       </div>
     </section>
 
     <section class="site-services">
       <div class="container">
         <h2 class="site-services__title">Наши услуги</h2>
-      </div>
 
+        <ul class="site-services__list">
+          <li class="site-services__item">
+            <img class="site-services__img" src="img/nashi-uslugi-doctor.svg" alt="image doctor" width="54" height="77">
+            <p class="site-services__text">
+              Первичный осмотр
+            </p>
+          </li>
+          <li class="site-services__item-two">
+            <img class="site-services__img" src="img/nashi-uslugi-xamshira.svg" alt="image doctor" width="52" height="77">
+            <p class="site-services__text">
+              Первичный осмотр
+            </p>
+          </li>
+          <li class="site-services__item-three">
+            <img class="site-services__img" src="img/nashi-uslugi-dog.svg" alt="image doctor" width="72" height="77">
+            <p class="site-services__text item-three">
+              Хирургическое вмешательство
+            </p>
+          </li>
+          <li class="site-services__item-four">
+            <img class="img-item__four" src="img/nashi-uslugi-small__dog.svg" alt="image doctor" width="76" height="76">
+            <p class="site-services__text item-four">
+              Дерматология
+            </p>
+          </li>
+          <li class="site-services__item-five">
+            <img class="img-item__five" src="img/nashi-uslugi-mikraskop.svg" alt="image doctor" width="78" height="78">
+            <p class="site-services__text item-five">
+              Лабораторная диагностика
+            </p>
+          </li>
+          <li class="site-services__item-six">
+            <img class="img-item__six" src="img/nashi-uslugi-dogs.svg" alt="image doctor" width="76" height="76">
+            <p class="site-services__text item-six">
+              Офтальмология
+            </p>
+          </li>
+        </ul>
+
+
+        <div class="inspection">
+          <div class="img-wrapper">
+            <img class="cat" src="img/nashi-uslugi-glavniy-img.svg" alt="cat">
+          </div>
+
+          <div class="right-content__wrapper">
+            <h3 class="right-content__title">Первичный осмотр</h3>
+            <p class="right-content__text-top">
+              По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.
+            </p>
+            <p class="right-content__text-bottom">
+              По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.
+            </p>
+
+            <ul class="right-content__list">
+              <li class="right-content__item">
+                <a href="#" class="right-content__link">
+                  Узнать цену
+                </a>
+              </li>
+              <li class="right-content__item">
+                <a href="#" class="right-content__second-link">
+                  Записаться на приём
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="site-form">
       <div class="container">
+       <div class="site-form__content">
+        <h2 class="site-form__title">
+          Будь в курсе событий
+        </h2>
 
+        <form class="events-form" action="https://echo.htmlacademy.ru" method="POST">
+          <input type="email" name="email" placeholder="Укажите Ваш email адрес" class="input-email" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" required>
+
+          <button class="site-form__button" type="submit">Подписаться</button>
+        </form>
+       </div>
+      </div>
+    </section>
+    <section class="site-iframe">
+      <div class="container">
+        <div class="div-all">
+          <div class="iframe-content">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps/org/najot_ta_lim/206616411269/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Najot Ta'lim</a><a href="https://yandex.uz/maps/10335/tashkent/category/educational_center/184106168/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">O‘quv markazi  Toshkentda</a><iframe src="https://yandex.uz/map-widget/v1/-/CCUeMSF1LD" width="560" height="400" allowfullscreen="true" style="position:relative;"></iframe></div>
+          </div>
+          <div class="input-div">
+            <div class="input-div__content">
+              <h3 class="input-div__title">Обратная связь</h3>
+              <p class="input-div__text">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
