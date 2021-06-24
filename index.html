@@ -75,7 +75,7 @@
           <p class="site-hero__text">
             Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.
           </p>
-          <a href="#" class="site-hero__link">Наши услуги</a>
+          <a href="#nashi-uslugi" class="site-hero__link">Наши услуги</a>
         </div>
       </div>
     </section>
@@ -92,42 +92,42 @@
       </div>
     </section>
 
-    <section class="site-services">
+    <section class="site-services" id="nashi-uslugi">
       <div class="container">
         <h2 class="site-services__title">Наши услуги</h2>
 
         <ul class="site-services__list">
-          <li class="site-services__item">
+          <li class="site-services__item items">
             <img class="site-services__img" src="img/nashi-uslugi-doctor.svg" alt="image doctor" width="54" height="77">
             <p class="site-services__text">
               Первичный осмотр
             </p>
           </li>
-          <li class="site-services__item-two">
+          <li class="site-services__item-two items">
             <img class="site-services__img" src="img/nashi-uslugi-xamshira.svg" alt="image doctor" width="52" height="77">
             <p class="site-services__text">
               Первичный осмотр
             </p>
           </li>
-          <li class="site-services__item-three">
+          <li class="site-services__item-three items">
             <img class="site-services__img" src="img/nashi-uslugi-dog.svg" alt="image doctor" width="72" height="77">
             <p class="site-services__text item-three">
               Хирургическое вмешательство
             </p>
           </li>
-          <li class="site-services__item-four">
+          <li class="site-services__item-four items">
             <img class="img-item__four" src="img/nashi-uslugi-small__dog.svg" alt="image doctor" width="76" height="76">
             <p class="site-services__text item-four">
               Дерматология
             </p>
           </li>
-          <li class="site-services__item-five">
+          <li class="site-services__item-five items">
             <img class="img-item__five" src="img/nashi-uslugi-mikraskop.svg" alt="image doctor" width="78" height="78">
             <p class="site-services__text item-five">
               Лабораторная диагностика
             </p>
           </li>
-          <li class="site-services__item-six">
+          <li class="site-services__item-six items">
             <img class="img-item__six" src="img/nashi-uslugi-dogs.svg" alt="image doctor" width="76" height="76">
             <p class="site-services__text item-six">
               Офтальмология
@@ -183,15 +183,26 @@
       </div>
     </section>
     <section class="site-iframe">
-      <div class="container">
+      <div class="containe">
         <div class="div-all">
           <div class="iframe-content">
-            <div style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps/org/najot_ta_lim/206616411269/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Najot Ta'lim</a><a href="https://yandex.uz/maps/10335/tashkent/category/educational_center/184106168/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">O‘quv markazi  Toshkentda</a><iframe src="https://yandex.uz/map-widget/v1/-/CCUeMSF1LD" width="560" height="400" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps/org/najot_ta_lim/206616411269/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Najot Ta'lim</a><a href="https://yandex.uz/maps/10335/tashkent/category/educational_center/184106168/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">O‘quv markazi  Toshkentda</a><iframe src="https://yandex.uz/map-widget/v1/-/CCUeMSF1LD" width="462" height="652" allowfullscreen="true" style="position:relative;"></iframe></div>
           </div>
           <div class="input-div">
             <div class="input-div__content">
-              <h3 class="input-div__title">Обратная связь</h3>
-              <p class="input-div__text">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+              <form class="input-question" action="https://echo.htmlacademy.ru"  method="POST" >
+
+                <h1 class="form-heading">Обратная связь</h1>
+                <p class="form-text">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+
+                <input class="input-name" type="text" name="name" placeholder="Ваше имя" required>
+
+                <input class="input-name" type="text" name="name" placeholder="Email для обратной связи" required>
+
+                <textarea class="question-input" name="question" cols="30" rows="10" placeholder="Опишите Ваш вопрос."></textarea>
+
+                <button class="form-button" type="submit">Задать нам вопрос</button>
+              </form>
             </div>
           </div>
         </div>
