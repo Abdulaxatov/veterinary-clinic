@@ -325,7 +325,7 @@ img {
 
 .site-hero{
   padding-bottom: 354px;
-  background-image: url("../img/hero-bgimg-first.svgjto"), url("../img/hero-bgimg-second.svg");
+  background-image: url("../img/hero-bgimg-first.svg"), url("../img/hero-bgimg-second.svg");
   background-position: calc(50% + -175px) -150px, calc(50% + 55px) -100px;
   background-repeat: no-repeat;
   background-size: cover;
